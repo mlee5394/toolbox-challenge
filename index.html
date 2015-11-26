@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Police Shootings in the US</title>
+
+    <!-- jQuery Script -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Boostrap Script -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <!-- Chart.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/app.js" type="text/javascript"></script>
+</head>
+<body>
+    <header>
+        <h1>Fatal Police Shootings in the US in 2015</h1>
+    </header>
+
+    <main>
+        <div class="col-sm-6">
+            <!-- Shows the death toll by gender -->
+            <h3>Death Toll by Gender</h3>
+            <canvas id="gender" width="400" height="400"></canvas>
+            <div id="legend" class="chart-legend"></div>
+        </div>
+
+        <div class="col-sm-6">
+            <!-- Shows the fatal police shootings at those with mental illnesses -->
+            <h3>Death Toll with Mental Illnesses</h3>
+            <canvas id="illness" width="350" height="350"></canvas>
+        </div>
+    </main>
+
+
+</body>
+</html>
