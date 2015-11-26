@@ -2,22 +2,6 @@
 
 **Learning to use Chart.js**
 
-### Built exclusively for Markdown ###
-
-Enjoy first-class Markdown support with easy access to  Markdown syntax and convenient keyboard shortcuts.
-
-Give them a try:
-
-- **Bold** (`Ctrl+B`) and *Italic* (`Ctrl+I`)
-- Quotes (`Ctrl+Q`)
-- Code blocks (`Ctrl+K`)
-- Headings 1, 2, 3 (`Ctrl+1`, `Ctrl+2`, `Ctrl+3`)
-- Lists (`Ctrl+U` and `Ctrl+Shift+O`)
-
-### See your changes instantly with LivePreview ###
-
-Don't guess if your [hyperlink syntax](http://markdownpad.com) is correct; LivePreview will show you exactly what your document looks like every time you press a key.
-
 ### What language, library, feature, service, or tool does this example demonstrate? ###
 My first approach was to try and learn d3 and learn css animation, however, I realized that the work wasn't practical. I ended up demonstrating how to use Chart.js.
 
@@ -40,7 +24,7 @@ Their last commit was about 9 days ago, which isn't too bad. However their numbe
 My example website visualizes the number of people fatalities that have occurred this year because of the police. I used Chart.js as a simple way to show that there is a huge gap between the number of men killed by police versus women. It was also very interesting to see that the amount of people who were shot were not mostly people with mental illnesses.
 
 ### How should someone run your example? ###
-My example can be accessed through [here](students.washington.edu/mlee5394).
+My example can be accessed through [here](http://students.washington.edu/mlee5394/info343/toolbox-challenge/).
 
 ### Where should a web developer go to learn more about this technology? ###
 To learn more about Chart.js I would definitely go and look at their [documentation](http://www.chartjs.org/docs/). It was the most help out of anything else. It is pretty straight-forward and most of the websites I found used the same examples as the ones in the original documentation. [CodePen](http://codepen.io/grayghostvisuals/pen/xmBpL) is also a great one to use as well as [Tuts+](http://webdesign.tutsplus.com/tutorials/build-a-dynamic-dashboard-with-chartjs--webdesign-14363).

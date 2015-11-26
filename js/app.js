@@ -35,7 +35,7 @@ $(function() {
     // Had to convert original csv file
     // https://github.com/washingtonpost/data-police-shootings/blob/master/fatal-police-shootings-data.csv
 
-    $.getJSON('data/shootings.JSON')
+    $.getJSON('data/shootings.json')
         .then(function(data) {
             // loops through data to obtain necessary data
             for (var i = 0; i < data.length; i++) {
